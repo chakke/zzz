@@ -1,0 +1,15 @@
+#pragma once
+
+#include "ActionSystem.h"
+#include "AfterPhysicSystem.h"
+#include "AnimationSystem.h"
+#include "AttackSystem.h"
+#include "BuildSystem.h"
+#include "HPBarSystem.h"
+#include "MapSystem.h"
+#include "MovementSystem.h"
+#include "PathFollowSystem.h"
+#include "SortRenderSystem.h"
+#include "EffectSystem.h"
+#include "RenderSystem.h"
+#include "RemoveEntitySystem.h"
