@@ -4,7 +4,6 @@
 #include "UIParser/UIParser.hpp"
 #include "Game/Controller/RootViewController.hpp"
 #include "Game/Controller/ToastController.hpp"
-#include "HelloWorldScene.h"
 USING_NS_CC;
 
 static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
@@ -42,7 +41,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 		glview = GLViewImpl::create("ArcadeDotaGame");
 #endif
 		director->setOpenGLView(glview);
-		float scale = 0.6f;
+		float scale = 0.4f;
 		glview->setFrameSize(2208 * scale, 1242 * scale);
 	}
 	director->setAnimationInterval(1.0 / 60);
